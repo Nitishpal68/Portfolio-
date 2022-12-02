@@ -11,108 +11,13 @@ img{
 	box-sizing: border-box;
 }
 .font-div{
-	width: 60%;
+	width: 30%;
 }
-@media only screen and(min-width: 1198px)
+@media only screen and(max-width: 1198px)
 {
 	.font-div{
-	padding: 42.5px !important;
+	padding: 80.5px !important;
 	box-sizing: border-box;
 
 }
-@media screen and (max-width: 900px) {	
-    .font-div{
-	    padding: 30px;
-            width: 95%;
-	    
-    }
-	img{
-		width:90%;
-		height:90%;
-	}
-  }
-  @media screen and (max-width: 700px) {	
-    .font-div{
-	    padding: 25px;
-            width: 75%;
-	    
-    }
-	img{
-		width:65%;
-		height:65%;
-	}
-  }
-  
-  @media screen and (max-width: 400px) {	
-    .font-div{
-	    padding: 17px;
-            width: 50%;
-	    
-    }
-	img{
-		width:45%;
-		height:45%;
-	}
-  }
-
- 
-  @media screen and (max-height: 200px) {	
-    .font-div{
-	    padding: 10px;
-            width: 35%;
-	    
-    }
-	img{
-		width:37%;
-		height:37%;
-	}
-  }
-  @media screen and (max-height: 50px) {	
-   .font-div{
-	    padding: 5px;
-            width: 25%;
-	    
-    }
-	img{
-		width:10%;
-		height:10%;
-	}
-  }
-  
-
-.navHome{
-	background-color: green;
-}
-
-.navEd{
-	background-color: rgb(215, 3, 3);
-}
-
-.navProject {
-	background-color: blue;
-}
-
-.navProject:hover {
-	cursor: pointer;
-	background-color: rgb(0, 132, 255);
-}
-
-.navContact{
-	background-color: #ffc107;
-}
-
-.navContact:hover{
-	cursor: pointer;
-	background-color: #f0e40b;
-}
-
-
-.navHome:hover{
-	cursor: pointer;
-	background-color: rgb(10, 183, 10);
-}
-
-.navEd:hover{
-	cursor: pointer;
-	background-color: rgb(241, 63, 63);
 }
